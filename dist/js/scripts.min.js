@@ -56,7 +56,21 @@ function allLozadImg() {
 allLozadImg();
 
 //anim
+//add counting number to show delay speed
+var counterContainer = [...document.querySelectorAll('.counting-delay')];
 
+function addCoutingDelay() {
+    if (counterContainer.length) {
+        counterContainer.forEach((cont) => {
+            var anims = [...cont.querySelectorAll('.anim')];
+            anims.forEach((btn, k) => {
+                btn.dataset.animDelay = k * 40;
+            })
+        })
+    }
+}
+
+addCoutingDelay();
 
 var animStage = [...document.querySelectorAll('.anim-stage')];
 
@@ -267,9 +281,77 @@ window.onscroll = function () {
 
 
 
-var rellax = new Rellax('.rellax-h', {});
+// var rellax = new Rellax('.rellax-h', {});
 
 
+function isInViewport(el, el2) {
+    var top = el.offsetTop;
+    var left = el.offsetLeft;
+    var width = el.offsetWidth;
+    var height = el.offsetHeight;
+
+    while(el.offsetParent) {
+        el = el.offsetParent;
+        top += el.offsetTop;
+        left += el.offsetLeft;
+    }
+    console.log(window.pageYOffset + ' .scrolled')
+    console.log(top - el2.offsetHeight + ' .top');
+    console.log(window.innerHeight + ' .height');
+    console.log(el2.getBoundingClientRect().top + ' .to top');
+
+    return (
+        top < (window.pageYOffset + window.innerHeight) &&
+        left < (window.pageXOffset + window.innerWidth) &&
+        (top + height) > window.pageYOffset &&
+        (left + width) > window.pageXOffset
+    );
+}
+
+
+const boxNews = document.querySelector('.news');
+
+let newsEls = [...document.querySelectorAll('.news .rellax-h')];
+
+function ifHaveNews() {
+    if (boxNews) {
+        const messageText2 = isInViewport(boxNews, boxNews) ?
+            'The box is visible in the viewport1' :
+            'The box is not visible in the viewport1';
+        console.log(messageText2);
+        document.addEventListener('scroll', function () {
+            const messageText = isInViewport(boxNews, boxNews) ?
+                'The box is visible in the viewport' :
+                'The box is not visible in the viewport';
+            if(isInViewport(boxNews, boxNews) === true) {
+                console.log(1);
+                if (window.innerHeight > boxNews.getBoundingClientRect().top) {
+                    console.log('tatata')
+                    let tr = window.innerHeight - boxNews.getBoundingClientRect().top;
+                    newsEls.forEach((btn, k) => {
+                        if (k === 0) {
+                            btn.style.setProperty('transform', `translate(0, ${tr/2.2}px)`);
+
+                        } else {
+                            btn.style.setProperty('transform', `translate(0, -${tr/2.4}px)`);
+
+                        }
+                    })
+                }
+
+            } else {
+                console.log('qweqwe')
+            }
+
+            console.log(messageText);
+
+        }, {
+            passive: true
+        });
+    }
+}
+
+ifHaveNews();
 //swipers
 
 let instaSlider = [...document.querySelectorAll('.insta-list')];
@@ -450,6 +532,24 @@ getMaskPhone2();
 //telephones
 
 
+let btnsScroll = [...document.querySelectorAll('.btn-go')];
+
+function scrollToForm() {
+    if (btnsScroll.length) {
+        btnsScroll.forEach((btn) => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                e.preventDefault();
+                let lnk = btn.dataset.to;
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $(`.${lnk}`).offset().top - $('.header').outerHeight(true)
+                }, 600);
+            })
+        })
+    }
+}
+scrollToForm();
+
 //modal windows
 
 //modal window
@@ -581,6 +681,5 @@ function control404() {
 control404();
 
 
-$('.phone-number').mask('+38(999)-999-99-99');
 //video plays
 
