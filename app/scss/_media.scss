@@ -1,4 +1,63 @@
+@media screen and (min-width: 2000px) {
+  .footer-wrap .bg {
+    right: 32%;
+  }
+}
+
 @media screen and (max-width: 1720px) {
+  .page404 {
+    padding-top: 60px;
+  }
+  .page404-cont > span {
+    font-size: 82px;
+    margin-bottom: 80px;
+  }
+  .need-consult > p {
+    font-size: 32px;
+  }
+  main {
+  }
+  .single-work__head span {
+    font-size: 32px;
+  }
+  .work-hero {
+    .prices-hero__left {
+      width: 62%;
+    }
+  }
+  .prices-tabs__top .tab-btn {
+    font-size: 32px;
+    padding: 20px 40px;
+  }
+  .single-depilation span {
+    font-size: 26px;
+  }
+  .single-depilation {
+    padding: 23px 60px 23px 30px;
+  }
+  .single-depilation .img {
+    width: 60px;
+    height: 60px;
+  }
+  .important-bot {
+    max-width: 70%;
+  }
+  .prices-cont {
+    gap: 90px;
+  }
+  .recommends-cont .sub-text {
+    margin-top: 60px;
+  }
+  .faq {
+    padding: 100px 0;
+  }
+  .price-list {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .important-bottom {
+    margin-top: 120px;
+  }
   .container {
     max-width: 1430px;
   }
@@ -75,6 +134,175 @@
 }
 
 @media screen and (max-width: 1600px) {
+  .need-consult {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  .pagination {
+    margin-top: 30px;
+  }
+  .single-blog .text {
+    padding: 20px 6px 14px;
+
+    span {
+      font-size: 20px;
+      margin-bottom: 14px;
+    }
+  }
+  .single-blog {
+    &::before {
+      border-radius: 0 0 30px 30px;
+    }
+
+    .img {
+      border-radius: 30px;
+    }
+  }
+  .single-blog .tags {
+    top: 14px;
+    right: 12px;
+  }
+  .single-blog .tag {
+    padding: 6px 11px;
+  }
+  .blog-list {
+    gap: 20px 40px;
+  }
+  .title strong {
+    font-size: 72px;
+  }
+  .single-work__head span {
+    font-size: 28px;
+  }
+
+  .single-work__center {
+    gap: 40px;
+  }
+  .single-work-tab.shw {
+    padding-bottom: 30px;
+  }
+  .single-work__head {
+    padding: 30px 60px 30px 30px;
+  }
+  .single-work__left {
+    padding-left: 30px;
+  }
+  .type-depilation .important-bottom {
+    margin-top: 50px;
+  }
+  .sugar-depilation {
+    margin-top: 90px;
+  }
+  .sugar-depilation__img .sub-title {
+    top: 60px;
+  }
+  .clack-img p {
+    font-size: 24px;
+  }
+  .price-title {
+    font-size: 22px;
+    padding: 20px 40px;
+  }
+  .single-step .text span {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .single-advantage span::after {
+    width: 62px;
+    height: 61px;
+  }
+  .single-apparatus .txt span {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .price-right__bubble ul li {
+    margin-bottom: 25px;
+  }
+  .pain-left ul li span {
+    font-size: 20px;
+  }
+  .single-type span {
+    font-size: 20px;
+  }
+  .price-right__bubble ul li p strong {
+    font-size: 30px;
+  }
+  .single-bubble {
+    width: 260px;
+    height: 251px;
+  }
+  .price-list__cont li p, .price-list__head p {
+    font-size: 20px;
+  }
+  .price-list__cont > span {
+    font-size: 22px;
+  }
+  .price-list__cont ul li span {
+    font-size: 20px;
+  }
+  .important-right .pain-left {
+    padding: 30px 0;
+  }
+  .important-bottom {
+    margin-top: 80px;
+  }
+  .after-care__single:before {
+    font-size: 72px;
+    padding-top: 13px;
+  }
+  .price-right__bubble ul li span {
+    font-size: 34px;
+  }
+  .pain-text {
+    height: 130px;
+  }
+  .price-list {
+    margin-top: 65px;
+  }
+  .price-right__bubble ul li p {
+    font-size: 34px;
+  }
+  .single-bubble .txt p {
+    font-size: 32px;
+  }
+  .single-bubble .txt span {
+    font-size: 72px;
+  }
+  .insta-block {
+    padding: 24px 30px 24px 40px;
+  }
+  .big-link-insta {
+    font-size: 92px;
+  }
+  .important-bot span {
+    font-size: 24px;
+  }
+  .important-left span {
+    font-size: 26px;
+  }
+  .faq-head p {
+    font-size: 22px;
+  }
+  .faq-container h2, .faq-container span {
+    font-size: 26px;
+  }
+  .price-right > span {
+    font-size: 26px;
+  }
+  .advantages .title-head {
+    gap: 50px;
+  }
+  .title-head .text blockquote {
+    font-size: 24px;
+  }
+  .apparatus-image .txt {
+    bottom: 8%;
+  }
+  .single-advantage span {
+    font-size: 26px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
   .container {
     max-width: 1330px;
   }
@@ -173,7 +401,152 @@
   }
 }
 
+
 @media screen and (max-width: 1450px) {
+  .need-consult {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .pagination ul li a.current::before, .pagination ul li span.current::before {
+    width: 60px;
+    height: 47px;
+  }
+  .pagination ul {
+    gap: 23px;
+  }
+  .pagination ul li a.next, .pagination ul li a.prev, .pagination ul li span.next, .pagination ul li span.prev {
+    font-size: 30px;
+  }
+  .blog {
+    margin: 20px 0 60px;
+  }
+
+  .pagination ul li a, .pagination ul li span {
+    font-size: 42px;
+  }
+  .faq-images {
+    margin-top: -80px;
+  }
+  .work-footer {
+    padding: 60px 0;
+  }
+  .work-footer__right .txt p {
+    margin-bottom: 10px;
+  }
+  .work-footer__left .work-quote p {
+    font-size: 22px;
+  }
+  .work-footer__right .txt p strong {
+    font-size: 20px;
+  }
+  .contacts-right {
+    gap: 12px;
+
+    > span {
+      margin-top: 20px;
+    }
+  }
+
+  .prices-hero__right {
+    margin-top: auto;
+  }
+  .prices-hero__left-imgs .img:nth-child(2) {
+    padding-top: 47%;
+  }
+  .spacer-for-empty {
+    padding-top: 80px;
+  }
+
+  .prices-tabs__top .tab-btn {
+    font-size: 26px;
+    padding: 14px 30px;
+  }
+  .prices-tabs__cont {
+    gap: 50px;
+  }
+  .sugar-depilation__img {
+    margin-bottom: 20px;
+  }
+  .single-depilation .txt p {
+    margin-bottom: 13px;
+  }
+  .single-depilation span {
+    font-size: 24px;
+  }
+  .single-depilation .img {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+  }
+  .after-care__top .title-head {
+    gap: 20px;
+  }
+  .after-care__top {
+    padding-bottom: 70px;
+  }
+  .important-top {
+    margin-bottom: 35px;
+  }
+  .faq {
+    padding: 70px 0;
+  }
+  .single-advantage span {
+    font-size: 24px;
+  }
+  .after-care__single:before {
+    margin-bottom: 25px;
+  }
+  .important-left span {
+    font-size: 24px;
+  }
+  .price-right > span {
+    font-size: 24px;
+  }
+  .apparatus-list {
+    gap: 30px;
+  }
+  .single-apparatus {
+    width: calc((100% / 3) - (60px / 3));
+  }
+  .prices-cont {
+    gap: 50px;
+  }
+  .single-step .img {
+    margin-bottom: 25px;
+  }
+  .insta-list {
+    gap: 14px;
+
+    .swiper {
+      .swiper-wrapper {
+        gap: 14px;
+      }
+    }
+  }
+  .single-insta {
+    width: calc((100% / 7) - ((14px * 6) / 7));
+  }
+  .our-steps {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .single-apparatus .img {
+    width: 90px;
+    height: 85px;
+
+    &::after {
+      width: 60px;
+      height: 60px;
+      background-size: contain;
+    }
+  }
+  .advantages-list {
+    gap: 20px;
+  }
+  .single-advantage {
+    width: calc((100% / 3) - (40px / 3));
+    padding: 30px 30px 25px;
+  }
   .news-cont .single-news:nth-child(1) .single-news__wrap {
     transform: translate(0, -860px);
   }
@@ -253,6 +626,118 @@
 }
 
 @media screen and (max-width: 1370px) {
+  .work-info .txt p strong {
+    font-size: 20px;
+  }
+  .work-image .img2 {
+    border-radius: 30px;
+  }
+  .single-work__left p {
+    margin-top: 16px;
+  }
+  .work-hero .prices-hero__left {
+    margin-bottom: 60px;
+  }
+  .single-work__head span {
+    font-size: 24px;
+  }
+  .single-depilation {
+    flex-wrap: wrap;
+
+    .txt {
+      width: 100%;
+      max-width: 100%;
+      margin-top: 12px;
+    }
+  }
+  .single-apparatus .img::after {
+    width: 54px;
+    height: 54px;
+  }
+  .steps-cont {
+    margin-bottom: 60px;
+  }
+  .single-type::before {
+    top: 30px;
+    left: 23px;
+  }
+  .single-type {
+    padding: 24px 24px 24px 50px;
+  }
+  .faq-container h2, .faq-container span {
+    font-size: 24px;
+  }
+  .faq-head {
+    margin-bottom: 18px;
+
+    p {
+      font-size: 20px;
+    }
+  }
+  .single-faq {
+    padding: 30px 28px 20px;
+  }
+  .important-things {
+    margin: 40px 0;
+  }
+  .important-bottom {
+    margin-top: 50px;
+  }
+  .care-img-cont .care-img {
+    padding-top: 140%;
+  }
+  .test-drive-block {
+    margin: 30px 0;
+  }
+  .title-head .text span {
+    margin-bottom: 30px;
+  }
+  .single-bubble .txt span {
+    font-size: 58px;
+  }
+  .price-list__cont li p, .price-list__head p {
+    width: 100px;
+  }
+  .single-bubble {
+    width: 230px;
+    height: 221px;
+  }
+  .single-bubble .txt p {
+    font-size: 26px;
+  }
+  .prices-cont {
+    gap: 30px;
+  }
+  .recommends {
+    margin: 35px 0;
+  }
+  .insta-block .img img {
+    width: 55px;
+    height: 55px;
+    margin-bottom: 10px;
+  }
+  .insta-block {
+    padding: 20px 22px 20px 24px;
+  }
+  .recommends-cont .sub-text {
+    margin-top: 30px;
+  }
+  .steps-list {
+    padding-top: 45px;
+  }
+  .single-apparatus {
+    width: calc(50% - 15px);
+  }
+  .apparatus-image .sub-title {
+    top: 10%;
+  }
+  .advantages-list {
+    margin-top: 40px;
+  }
+  .single-advantage span::after {
+    width: 53px;
+    height: 52px;
+  }
   .footer-wrap .bg {
     width: 190px;
   }
@@ -284,6 +769,130 @@
 }
 
 @media screen and (max-width: 1250px) {
+  .blog-list {
+    gap: 20px;
+  }
+  .single-blog {
+    width: calc((100% / 3) - (40px / 3));
+  }
+  .single-work__left {
+    padding-left: 10px;
+  }
+  .work-hero .prices-hero__left {
+    margin-bottom: 80px;
+  }
+  .work-footer__left::before {
+    left: 150px;
+    top: -28px;
+  }
+  .work-footer__cont {
+    align-items: flex-start;
+  }
+  .work-footer__left {
+
+  }
+  .work-info .txt p strong {
+    font-size: 18px;
+  }
+  .work-info .txt p {
+    font-size: 14px;
+  }
+  .single-work__right {
+    width: 320px;
+    padding: 50px 20px;
+    gap: 15px;
+  }
+  .single-work__head::after {
+    right: 10px;
+  }
+  .work-tabs {
+    margin: 40px 0 50px;
+  }
+  .single-work__center {
+    gap: 20px;
+  }
+  .single-work__head span {
+    font-size: 20px;
+  }
+  .single-work__head {
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .prices-hero__left-imgs .img {
+    border-radius: 30px;
+  }
+  .prices-tabs__center .item-tab > .txt {
+    width: 100%;
+  }
+  .type-depilation__cont {
+    margin-top: -70px;
+  }
+  .depilation-list {
+    gap: 16px;
+  }
+  .laser-left span {
+    margin-bottom: 80px;
+  }
+  .after-care__single:before {
+    width: 80px;
+    height: 80px;
+    font-size: 64px;
+    padding-top: 10px;
+  }
+  .price-list__cont ul {
+    gap: 5px;
+  }
+  .after-care__single span {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .price-list__cont {
+    margin-bottom: 14px;
+  }
+  .price-list__cont > span {
+    margin-bottom: 14px;
+  }
+  .price-right__bubble {
+    padding: 80px 50px 90px;
+  }
+  .big-link-insta {
+    font-size: 76px;
+  }
+  .single-advantage span {
+    font-size: 20px;
+  }
+  .single-advantage span::after {
+    width: 40px;
+    height: 39px;
+  }
+  .important-bottom::after, .important-bottom::before {
+    width: 23px;
+    height: 92px;
+  }
+  .single-insta a p {
+    top: 0;
+    transform: translate(-50%, 0);
+    border-radius: 0 0 15px 15px;
+    width: 60%;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .insta-list {
+    .swiper {
+      .swiper-wrapper {
+        flex-wrap: nowrap;
+        align-items: stretch;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        gap: 0;
+
+      }
+    }
+  }
+  .pain-text {
+    height: 110px;
+  }
   .news-container {
     flex-direction: column;
     align-items: flex-start;
@@ -405,6 +1014,246 @@
 }
 
 @media screen and (max-width: 1120px) {
+  .page404-cont > span {
+    font-size: 68px;
+  }
+  .need-consult > p {
+    font-size: 26px;
+
+    &::before, &::after {
+      width: 27px;
+      height: 110px;
+    }
+
+    &::before {
+      left: -48%;
+      top: 200%;
+    }
+
+    &::after {
+      transform: translate(-50%, -50%) rotate(-68deg);
+    }
+  }
+  main {
+  }
+  .article-block blockquote {
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  .article-block .img {
+    margin-bottom: 35px;
+  }
+  .article-block li, .article-block p {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+  .bottom-article a::before {
+    width: 31px;
+    height: 136px;
+    top: 0;
+    left: -90px;
+  }
+
+  .bottom-article {
+    margin-top: 40px;
+  }
+  .more-blogs {
+    margin: 30px 0 40px;
+  }
+  .services-sub {
+    margin: 20px 0 30px;
+  }
+  .bottom-article a {
+    font-size: 28px;
+  }
+  .article-page {
+    padding: 30px 0;
+  }
+  .blog-hero .prices-hero__right {
+    width: 30%;
+    margin-top: 0;
+  }
+  .work-image {
+    margin-top: -150px !important;
+  }
+  .work-hero .prices-hero__left {
+    margin-bottom: 20px;
+  }
+  .contacts-map {
+    border-radius: 30px;
+  }
+  .contacts-right {
+    > span {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    > p {
+      strong {
+        font-size: 18px;
+      }
+    }
+  }
+  .prices-hero__right {
+    width: 100%;
+  }
+  .prices-tabs__center .item-tab > .txt {
+    margin-top: 30px;
+  }
+  .prices-tabs {
+    margin-top: 60px;
+  }
+  .prices-tabs__top .tab-btn {
+    font-size: 20px;
+  }
+  .single-depilation {
+    padding: 20px 30px 20px 20px;
+  }
+  .single-depilation span {
+    font-size: 20px;
+  }
+  .single-depilation .img {
+    width: 43px;
+    height: 43px;
+    margin-right: 10px;
+  }
+  .sugar-mask .img3 {
+    border-radius: 30px;
+  }
+  .sugar-mask .img2 {
+    border-radius: 30px;
+  }
+  .insta-list {
+    position: relative;
+
+    .btns {
+      display: flex;
+    }
+
+    .slider-btn {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      z-index: 3;
+      transform: translate(0, -50%);
+      border: 1px solid #000;
+
+      &.slider-btn--next {
+        left: auto;
+        right: 10px;
+      }
+    }
+  }
+  .slider-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background: #fff;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+
+    img {
+      height: 18px;
+      width: auto;
+      transition: all 0.3s ease-in-out;
+      filter: brightness(0);
+
+    }
+
+    &.slider-btn--prev {
+      img {
+        transform: rotate(180deg);
+      }
+    }
+
+    &:hover {
+      background: #000;
+
+      img {
+        filter: brightness(1);
+      }
+    }
+  }
+  .apparatus {
+    padding-top: 70px;
+  }
+  .steps-cont.second-step .title-head .text {
+    gap: 30px;
+  }
+  .pain-left ul li {
+    max-width: 360px;
+    margin-bottom: 14px;
+  }
+  .important-bot {
+    width: 60%;
+    gap: 15px;
+  }
+  .important-bot span {
+    font-size: 20px;
+  }
+  .title-head .text blockquote {
+    font-size: 20px;
+  }
+  .important-left span {
+    font-size: 20px;
+  }
+  .price-right > span {
+    font-size: 20px;
+  }
+  .apparatus-list {
+    margin-top: 30px;
+  }
+  .apparatus-image {
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+
+    .img {
+      height: 0;
+      padding-top: 46.8%;
+      position: relative;
+      top: auto;
+      left: auto;
+      right: auto;
+      bottom: auto;
+
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+  html {
+    font-size: 14px;
+  }
+  .apparatus-image .txt {
+    width: 100%;
+    transform: initial;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    font-size: 14px;
+
+    p {
+      appearance: none;
+      //font-size: 0.82858em !important;
+      line-height: 1.5;
+    }
+  }
+  .advantages .title-head {
+    margin-top: -200px;
+  }
+  .laser-left span {
+    margin-bottom: 40px;
+  }
   main, .header, .footer {
     padding-left: 20px;
     padding-right: 20px;
@@ -514,6 +1363,357 @@
 }
 
 @media screen and (max-width: 1050px) {
+  .header-back {
+    display: flex;
+    position: fixed;
+    z-index: 9;
+    background: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+  }
+  .header {
+    &.active {
+      & ~ .header-back {
+        opacity: 0.4;
+        pointer-events: auto;
+      }
+    }
+  }
+  .header-bot {
+    position: static;
+  }
+  .header-wrapper {
+    position: relative;
+  }
+  .need-consult > p::after {
+    left: 66%;
+  }
+  .need-consult > p {
+    font-size: 22px;
+  }
+  .page404-cont > span {
+    margin-bottom: 40px;
+    font-size: 60px;
+  }
+  .article-block .img {
+    border-radius: 30px;
+  }
+  .single-blog .text span {
+    font-size: 18px;
+  }
+  .blog-hero {
+    .prices-hero {
+      position: relative;
+    }
+
+    .prices-hero__left {
+      position: relative;
+      z-index: 2;
+    }
+
+    .prices-hero__right {
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+  .title strong {
+    font-size: 42px;
+  }
+  .faq-images__right .img2 {
+    border-radius: 0;
+  }
+  .faq-images__right {
+    width: 100%;
+
+    .btn {
+      right: auto;
+      left: 0;
+    }
+
+    .img2 {
+      top: 14%;
+    }
+  }
+  .faq-images__left .img2 {
+    border-radius: 30px;
+  }
+  .faq-images__left {
+    display: none;
+
+    .img {
+      padding-top: 124.7%;
+    }
+  }
+  .faq-images__right .btn {
+    top: 10%;
+  }
+  .faq-cont .faq-list {
+    gap: 20px;
+
+    .single-faq {
+      width: calc(50% - 10px);
+    }
+  }
+  .faq-cont {
+    margin: 50px 0;
+  }
+  .faq-images {
+    margin-top: 15px;
+  }
+  .contacts-hero__right {
+    width: 70%;
+    justify-content: flex-end;
+  }
+  .contacts-hero {
+    .prices-hero {
+      position: relative;
+    }
+
+    .prices-hero__left {
+      position: relative;
+      z-index: 2;
+    }
+
+    .contacts-hero__right {
+      top: 50%;
+      right: 0;
+      position: absolute;
+      transform: translate(0, -50%);
+
+      .img {
+        &::after {
+          content: none;
+        }
+      }
+    }
+  }
+  .prices-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .prices-hero__left {
+    width: 100%;
+  }
+
+  .type-depilation__cont {
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .type-depilation__left {
+    width: 100%;
+  }
+  .type-depilation__right {
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .depilation-photo .img {
+    border-radius: 30px;
+  }
+  .single-depilation {
+    border-radius: 30px;
+  }
+  .depilation-photo .arrow {
+    top: 89%;
+    transform: none;
+  }
+  .sugar-depilation .type-depilation__right {
+    padding-top: 10px;
+  }
+  .depilation-list {
+    gap: 14px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .single-depilation {
+    width: calc(50% - 7px);
+  }
+  .depilation-photo {
+    width: 50%;
+    padding-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .single-advantage {
+    border-radius: 30px;
+  }
+  .single-advantage .img {
+    border-radius: 30px;
+  }
+  .hero-text {
+    background-size: 100% 100%;
+  }
+  .pain-left ul li {
+    max-width: 310px;
+  }
+  .laser-right {
+    margin-top: 0;
+  }
+  .single-type span {
+    font-size: 18px;
+  }
+  .single-step .text span {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .after-care__list {
+    gap: 20px;
+  }
+  .single-faq {
+    border-radius: 30px;
+  }
+  .single-apparatus .img::after {
+    width: 40px;
+    height: 40px;
+  }
+  .single-apparatus .img {
+    width: 75px;
+    height: 70px;
+  }
+  .single-apparatus .txt span {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .single-advantage {
+    padding: 20px 20px 15px;
+  }
+  .single-advantage span {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .big-link-insta {
+    font-size: 62px;
+  }
+  .insta-list {
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
+  .care-img-cont .care-img {
+    border-radius: 30px;
+  }
+  .faq-head {
+    margin-bottom: 10px;
+
+    p {
+      font-size: 18px;
+    }
+  }
+  .important-bot {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .clack-img p {
+    font-size: 20px;
+  }
+  .prices {
+    margin: 35px 0;
+  }
+  .after-care__single, .care-img-cont {
+    width: calc((100% / 3) - (40px / 3));
+  }
+  .pain-text {
+    height: 90px;
+  }
+  .pain-left ul li span {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .pain-left ul {
+    padding: 20px 16px;
+  }
+  .after-care {
+    margin: 40px 0;
+  }
+  .after-care__single:before {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 12px;
+    font-size: 54px;
+    padding-top: 6px;
+  }
+  .after-care__single span {
+    font-size: 18px;
+  }
+  .price-list__cont ul li span {
+    font-size: 18px;
+  }
+  .price-list__cont > span {
+    font-size: 18px;
+  }
+  .price-list__cont li p, .price-list__head p {
+    font-size: 18px;
+  }
+  .price-title {
+    font-size: 18px;
+    padding: 10px 24px;
+  }
+  .single-bubble {
+    width: 210px;
+    height: 201px;
+  }
+  .price-list {
+    border-radius: 30px;
+  }
+  .insta-block {
+    border-radius: 30px;
+  }
+  .single-type {
+    border-radius: 30px;
+  }
+  .single-step .img {
+    border-radius: 30px;
+  }
+  .steps-list {
+    position: initial;
+
+    &::before {
+      content: none;
+    }
+  }
+  .steps-list {
+    gap: 24px;
+    flex-direction: column;
+  }
+  .single-step {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+
+    .text {
+      flex-grow: 1;
+      width: auto;
+
+      p {
+      }
+    }
+
+    .img {
+      flex-shrink: 0;
+
+      margin-bottom: 0;
+      width: 30%;
+      padding-top: 20%;
+    }
+  }
+
 
   .single-service:nth-child(even) .img {
     margin-top: 12px;
@@ -626,14 +1826,431 @@
     padding-top: 30px;
   }
   .hidden-menu {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0;
+    background: #fff;
+    border-radius: 0 0 30px 30px;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+    padding: 140px 20px 80px;
+    height: 90vh;
+    overflow-y: auto;
+
+    .header-top__left {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+      margin-top: auto;
+      gap: 30px;
+    }
+
+    .header-top__right {
+      display: flex;
+      gap: 30px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  }
+  .burger {
+    display: flex;
+    position: relative;
+    width: 48px;
+    height: 32px;
+    background: url("../img/hero-bg.svg") no-repeat center / 100% 100%;
+
+    span {
+      height: 4px;
+      width: 33px;
+      display: inline-block;
+      background: url(../img/test-bg.svg) no-repeat center/100% 100%;
+      filter: brightness(0);
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+      transition: all 0.3s ease-in-out;
+
+      &:nth-child(1) {
+        top: 6px;
+      }
+
+      &:nth-child(2) {
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      &:nth-child(3) {
+        bottom: 6px;
+      }
+
+    }
+
+    &.active {
+      span {
+        position: absolute;
+
+        &:nth-child(1), &:nth-child(2) {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(45deg);
+        }
+
+        &:nth-child(3) {
+          bottom: 50%;
+          left: 50%;
+          transform: translate(-50%, 50%) rotate(-45deg);
+
+        }
+      }
+    }
+  }
+  .header {
+    .hidden-menu {
+      transform: translate(0, -120%);
+      transition: all 0.6s ease-in-out;
+    }
+
+    &.active {
+      .hidden-menu {
+        transform: translate(0, 0);
+      }
+    }
+  }
+  .hidden-menu .menu {
+    margin-bottom: 30px;
+
+    ul {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 13px 50px;
+      flex-wrap: wrap;
+
+      li {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+
+    ul li a {
+
+      font-size: 18px;
+    }
   }
   .hero-home__cont {
     gap: 20px;
   }
 }
 
+@media screen and (max-width: 1022px) {
+  .single-work__center {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .single-work__left {
+    width: 100%;
+  }
+  .single-work__right {
+    position: static;
+  }
+  .work-footer__cont {
+    gap: 20px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .work-footer__right {
+    width: 100%;
+  }
+  .work-footer__left .work-quote {
+    padding: 50px 15px 50px 40px;
+  }
+  .work-footer__left {
+    margin-top: 20px;
+  }
+  .single-work__center {
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .more-blogs {
+    .single-blog {
+      flex-grow: 1;
+    }
+  }
+  .single-blog {
+    width: calc(50% - 10px);
+  }
+  .blog {
+    margin-top: 50px;
+  }
+  .work-hero .prices-hero__left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .work-image {
+    width: 100%;
+    margin-top: 0 !important;
+
+    .img2 {
+      top: 15px;
+      right: 15px;
+    }
+  }
+  .image-work {
+    border-radius: 30px;
+    overflow: hidden;
+    mask-image: none;
+    padding-top: 48%;
+  }
+  .prices-tabs {
+    margin-top: 35px;
+  }
+  .contacts-block {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .contacts-map {
+    width: 100%;
+    padding-top: 46%;
+  }
+  .contacts-hero__right {
+    width: 100%;
+  }
+  .faq {
+    padding: 45px 0;
+  }
+  .important-things {
+    margin: 30px 0;
+  }
+  .faq-container h2, .faq-container span {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .care-img-cont::before {
+    width: 61%;
+    padding-top: 29.2%;
+    left: 30%;
+
+  }
+  .after-care__top .title-head {
+    width: 60%;
+  }
+  .price-right__bubble {
+    padding: 50px 30px 70px;
+  }
+  .price-right__bubble ul li span {
+    font-size: 28px;
+  }
+  .single-bubble {
+    width: 170px;
+    height: 161px;
+  }
+  .price-right__bubble ul li span small {
+    font-size: 14px;
+  }
+  .single-bubble .txt p {
+    font-size: 22px;
+  }
+  .single-bubble .txt span {
+    font-size: 42px;
+  }
+  .price-right__bubble ul li p {
+    font-size: 26px;
+
+    strong {
+      font-size: 20px;
+    }
+  }
+  .advantages .title-head {
+    gap: 30px;
+    margin-top: -140px;
+  }
+  .laser-right {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .need-consult > p {
+    &::after {
+      content: none;
+    }
+  }
+  .faq-cont .faq-list .single-faq {
+    width: 100%;
+  }
+  .sugar-depilation__img .sub-title {
+    top: 30px;
+  }
+  .title-head .text p {
+    margin-bottom: 18px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .sugar-left {
+    width: 100%;
+  }
+  .sugar-right {
+    margin-top: 15px;
+  }
+  .care-img-cont {
+    display: none;
+  }
+  .after-care__list {
+    margin-top: 20px !important;
+  }
+  .after-care__top {
+    padding-bottom: 0;
+  }
+  .painless-block {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .pain-right {
+    height: 0;
+    width: 100%;
+    padding-top: 60%;
+    margin: 0;
+
+    margin-top: 25px;
+
+  }
+  .pain-left {
+    border-radius: 30px;
+    border: 1px solid #000;
+    width: 100%;
+
+    > img {
+      display: none;
+    }
+  }
+}
+
 @media screen and (max-width: 840px) {
+  .page404-cont > span {
+    font-size: 48px;
+  }
+  .need-consult {
+    justify-content: center;
+    padding-top: 50px;
+
+    > p {
+      &::before {
+        transform: translate(-50%, -50%) rotate(11deg);
+      }
+    }
+  }
+  main {
+  }
+  .contacts-right .footer-socials {
+    margin-top: 15px;
+  }
+  .hero-laser::before {
+    top: 60%;
+  }
+  .laser-image .laser2 {
+    border-radius: 30px;
+  }
+  .laser-image .laser3 {
+    border-radius: 30px;
+  }
+  .important-bottom {
+    gap: 60px;
+  }
+  .important-bottom::after, .important-bottom::before {
+    width: 17px;
+    height: 73px;
+  }
+  .steps-cont .steps-img {
+    width: 30%;
+  }
+  .steps-cont.second-step .title-head .text {
+    width: calc(60% - 20px);
+  }
+  .apparatus-list {
+    gap: 20px;
+  }
+  .single-apparatus {
+    width: calc(50% - 10px);
+  }
+  .title-head .text p {
+    margin-bottom: 15px;
+  }
+  .price-list__cont li p, .price-list__head p {
+    width: 90px;
+  }
+  .price-list {
+    padding: 30px 20px;
+  }
+  .recommends-cont .sub-text {
+    gap: 20px;
+
+    .text {
+      width: calc(50% - 10px);
+    }
+  }
+  .recommends {
+    .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .bg-line {
+      z-index: 1;
+    }
+  }
+  .bg-line {
+    margin-top: -30px;
+  }
+  .text-types {
+    width: calc(50% - 10px);
+  }
+  .our-steps {
+    margin-top: 30px;
+  }
+  .apparatus-list {
+    margin-top: 20px;
+  }
+  .apparatus-image .sub-title {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    margin-bottom: 15px;
+  }
+  .advantages-list {
+    gap: 14px;
+  }
+  .single-advantage {
+    width: calc(50% - 7px);
+  }
+  .laser-right {
+    margin-top: 100px;
+  }
+  .laser-left {
+    width: 60%;
+  }
+  .advantages .title-head {
+    width: 100%;
+    margin-top: 20px;
+  }
   .news-cont .single-news .single-news__wrap::after, .news-cont .single-news .single-news__wrap::before {
     content: none !important;
   }
@@ -710,7 +2327,203 @@
   }
 }
 
+@media screen and (max-width: 820px) {
+
+  .prices-tabs__top .tab-btn {
+    padding: 10px 20px;
+  }
+  .insta-list {
+    margin-top: 15px;
+  }
+  .price-list {
+    margin-top: 25px;
+  }
+  .after-care__top .title-head {
+    width: 100%;
+  }
+  .pain-left ul li {
+    max-width: 100%;
+  }
+  .important-left span {
+    margin-bottom: 20px;
+  }
+  .important-center {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .important-left {
+    width: 100%;
+  }
+  .important-right {
+    width: 100%;
+  }
+  .after-care__list {
+    gap: 14px;
+  }
+  .after-care__single {
+    width: calc(50% - 7px);
+  }
+  .prices-bubbles {
+    width: 100%;
+    gap: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .prices-bubbles {
+    .single-bubble {
+      position: relative;
+      top: auto !important;
+      left: auto !important;
+      right: auto !important;
+      bottom: auto !important;
+    }
+  }
+  .single-bubble {
+    width: calc((100% / 3) - (24px / 3));
+    height: 0;
+    padding-top: calc((100% / 3) - (24px / 3));
+    position: static;
+
+    .txt {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+    }
+  }
+  .slider-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+  }
+  .prices-cont {
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .prices-left {
+    width: 100%;
+  }
+  .price-right {
+    width: 100%;
+  }
+  .steps-list {
+    padding-top: 15px;
+  }
+  .title-head {
+    gap: 20px;
+  }
+  .recommends-cont .sub-text {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .text {
+      width: 100%;
+    }
+  }
+  .text-types {
+    width: 100%;
+  }
+  .steps-cont .title-head .btn {
+    margin-right: 5%;
+  }
+  .steps-cont .title-head .text {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+
+    span {
+      width: 100%;
+    }
+
+    p {
+      width: 100%;
+    }
+  }
+  .single-apparatus .img {
+    width: 60px;
+    height: 55px;
+  }
+  .single-apparatus {
+    gap: 12px;
+  }
+}
+
 @media screen and (max-width: 767px) {
+  .services-sub__head {
+    flex-wrap: wrap;
+
+    .title {
+      width: 100%;
+    }
+  }
+  .pagination {
+    ul {
+      flex-wrap: wrap;
+
+      li {
+        &:first-child, &:last-child {
+          width: 100%;
+          justify-content: center;
+
+          a {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .depilation-photo {
+    width: 100%;
+    padding-top: 70%;
+  }
+  .depilation-photo .arrow {
+    width: 15%;
+    padding-top: 18%;
+    right: 70%;
+  }
+  .sugar-right {
+    margin-top: 12%;
+  }
+  .type-depilation__cont {
+    margin-top: 30px;
+  }
+  .big-link-insta {
+    font-size: 54px;
+  }
+  .price-list__cont > span {
+    margin-bottom: 7px;
+  }
+  .price-list__cont > span {
+    font-size: 16px;
+  }
+  .price-list__cont li p, .price-list__head p {
+    font-size: 16px;
+  }
+  .price-list__cont ul li span {
+    font-size: 14px;
+  }
+  .important-top {
+    margin-bottom: 15px;
+  }
+  .important-left span {
+    font-size: 18px;
+  }
+  .price-right > span {
+    font-size: 18px;
+  }
+  .advantages .title-head {
+    gap: 20px
+  }
   .header-bot .logo {
     height: 40px;
   }
@@ -763,7 +2576,444 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .modal-container {
+    width: 100%;
+    padding: 60px 70px 50px 30px;
+    .modal-head {
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  .modal-close {
+    right: -44px;
+    top: -42px;
+  }
+
+  .hidden-menu .header-top__left {
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    margin-bottom: 0;
+
+    .link-location {
+      width: 100%;
+    }
+  }
+
+  .hidden-menu {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-top: 80px;
+
+    .header-top__right {
+      width: 50%;
+      margin-top: auto;
+    }
+
+    .menu {
+      ul {
+        gap: 6px;
+
+        li {
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .article-block .img {
+    padding-top: 60%;
+
+    .title {
+      padding: 20px 10px;
+    }
+  }
+  .bottom-article a {
+    font-size: 20px;
+  }
+  .services-sub__head {
+    gap: 10px;
+  }
+  .article-block blockquote {
+    font-size: 20px;
+    padding: 20px 30px;
+  }
+  .prices-tabs__top .tab-btn {
+    font-size: 16px;
+  }
+  .prices-tabs__cont {
+    gap: 20px;
+  }
+  .prices-tabs__top {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .tab-btn {
+      width: 100%;
+    }
+  }
+  .pat-price {
+    height: 42px;
+  }
+  .prices-hero__left-imgs::after {
+    left: 24%;
+    bottom: -40%;
+  }
+  .prices-hero__left-imgs .img:nth-child(2) {
+    left: auto;
+    right: 0;
+    width: calc(40% - 10px);
+
+  }
+  .prices-hero__left-imgs .img:nth-child(1) {
+    width: calc(60% - 10px);
+  }
+  .prices-hero__left .btn {
+    margin-top: 15px;
+  }
+  .sugar-depilation .important-bot {
+    max-width: 100%;
+  }
+  .type-depilation .important-bot {
+    max-width: 100%;
+  }
+  .single-depilation {
+    padding: 20px 15px;
+  }
+  .btn p {
+    padding: 8px 14px;
+  }
+  .sugar-mask .img2 {
+    border-radius: 15px;
+  }
+  .sugar-depilation__img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 40px;
+  }
+  .type-depilation__cont {
+    gap: 20px;
+  }
+  .sugar-mask .img2 {
+    width: calc(100% - 17.3%);
+  }
+  .sugar-mask .img3 {
+    border-radius: 15px;
+  }
+  .sugar-depilation .important-bottom {
+    margin-top: 20px;
+  }
+  .sugar-depilation {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .sugar-depilation__img .sub-title {
+    position: absolute;
+
+    top: -40px;
+    left: 0;
+    bottom: auto;
+    right: auto;
+    transform: translate(0, 0);
+
+    margin-bottom: 15px;
+  }
+  .single-depilation {
+    width: 100%;
+  }
+  .price-right__bubble {
+    padding: 60px 20px 40px;
+  }
+  .important-bot {
+    width: 100%;
+    max-width: 100%;
+
+    span {
+      text-align: center;
+    }
+  }
+
+  .important-bottom {
+    padding-top: 70px;
+    margin-top: 10px;
+    position: relative;
+
+    &::before, &::after {
+      top: 0;
+      position: absolute;
+      left: 10px;
+      transform: rotate(-50deg);
+    }
+
+    &::after {
+      left: auto;
+      right: 10px;
+      transform: rotate(-130deg) rotateX(180deg);
+    }
+  }
+  .important-top {
+    gap: 15px;
+  }
+  .laser-left {
+    width: 100%;
+  }
+  .single-apparatus {
+    width: 100%;
+  }
+  .single-type {
+    margin-bottom: 15px;
+  }
+  .steps-list {
+    gap: 14px;
+  }
+  .pain-text {
+    height: 70px;
+  }
+  .hero-laser::before {
+    top: auto;
+    bottom: 57%;
+  }
+  .laser-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .laser-right {
+    margin-left: auto;
+    margin-top: 0;
+    width: 67%;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  .services-sub {
+    .services-list {
+      margin-top: 13px;
+    }
+  }
+  .need-consult > p {
+    width: 100%;
+    font-size: 18px;
+
+    &::before {
+      left: 0;
+      top: 260%;
+    }
+  }
+  .page404-cont > span {
+    font-size: 30px;
+  }
+  .spacer-for-empty {
+    padding-top: 40px;
+  }
+  .pagination ul li a.current::before, .pagination ul li span.current::before {
+    width: 47px;
+    height: 37px;
+  }
+  .pagination ul {
+    gap: 20px;
+  }
+  .pagination ul li a.current, .pagination ul li span.current {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .pagination {
+    margin-top: 14px;
+  }
+  .pagination ul li a, .pagination ul li span {
+    font-size: 34px;
+  }
+  .pagination ul li a.next, .pagination ul li a.prev, .pagination ul li span.next, .pagination ul li span.prev {
+    font-size: 28px;
+  }
+  .blog-hero .prices-hero__right {
+    width: 50%;
+    top: 15%;
+  }
+  .single-blog {
+    width: 100%;
+  }
+  .faq-images__right .img {
+    mask-size: 135% 135%;
+    padding-top: 72%;
+    border-radius: 19px;
+
+    img {
+      transform: translate(0, 20%) scale(1.5);
+    }
+  }
+  .single-work__left {
+    padding-left: 0;
+  }
+  .work-footer__left {
+    width: 100%;
+  }
+  .single-work__head::after {
+    width: 24px;
+    height: 23px;
+  }
+  .single-work__head {
+    padding-right: 36px;
+  }
+  .single-work__head span {
+    font-size: 16px;
+  }
+  .single-work__right {
+    width: 100%;
+  }
+  .link-number {
+    font-size: 18px;
+  }
+  .contacts-map {
+    padding-top: 80%;
+  }
+
+  .single-service .img {
+    border-radius: 30px;
+  }
+  .single-faq {
+    padding: 20px 15px;
+  }
+  .faq {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .clack-img {
+    padding: 20px 25px;
+    background-size: 100% 100%;
+  }
+  .prices-bubbles {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .single-bubble {
+    width: calc(50% - 6px);
+    padding-top: calc(50% - 6px);
+
+    .txt {
+      padding: 12px;
+
+      p {
+        font-size: 18px;
+      }
+
+      span {
+        font-size: 34px;
+      }
+    }
+  }
+  .apparatus-image .sub-title {
+    transform: none;
+  }
+  .hero-laser::before {
+    bottom: 47%;
+  }
+  .important-bot span {
+    font-size: 18px;
+  }
+  .steps-cont .steps-img {
+
+  }
+  .after-care__single {
+    width: 100%;
+  }
+  .important-top {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .recommends {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+  .insta-block {
+    padding: 20px 15px;
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    > p {
+      width: 100%;
+    }
+  }
+  .recommends-cont .sub-text {
+    margin-top: 15px;
+  }
+  .steps-cont.second-step .title-head {
+    width: 100%;
+
+    .sub-title {
+      order: 1;
+    }
+
+    > .btn {
+      order: 4;
+      z-index: 2;
+    }
+
+    .text {
+      width: 100%;
+      order: 2;
+    }
+
+    .steps-img {
+      width: 60%;
+      margin-top: 0;
+      order: 3;
+      margin-bottom: -15%;
+    }
+  }
+  .single-step {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 15px;
+
+    .img {
+      width: 100%;
+      padding-top: 45%;
+    }
+
+    .text {
+      width: 100%;
+    }
+  }
+  .single-advantage span::after {
+    width: 34px;
+    height: 33px;
+  }
+  .single-advantage {
+    width: 100%;
+    padding: 20px 15px;
+
+    &:nth-child(5) {
+      order: 6;
+    }
+
+    .img {
+      position: static;
+      margin-top: -20px;
+      margin-bottom: -20px;
+      margin-right: -15px;
+      margin-left: -15px;
+      width: calc(100% + 30px);
+      height: 120px;
+    }
+  }
   .services-block {
     padding-top: 40px;
   }
@@ -862,6 +3112,7 @@
   .hero-text {
     background-size: 100% 100%;
     padding: 30px 30px;
+
     p {
       br {
         display: none;
@@ -873,7 +3124,175 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .hidden-menu {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    .header-top__left {
+      width: 100%;
+      margin-top: 40px;
+      order: 3;
+    }
+
+    .header-top__right {
+      width: 100%;
+      order: 2;
+      margin-top: auto;
+    }
+
+    .link-number {
+      font-size: 14px;
+
+      .arrow-ic {
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+      }
+    }
+
+    .menu {
+      order: 1;
+      margin-bottom: 30px;
+
+      ul {
+        li {
+          a {
+            padding: 9px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 500px) {
+  .modal-container {
+    padding: 60px 30px 50px 17px;
+    .modal-head {
+      padding: 0 15px;
+    }
+    .modal-close {
+      top: -55px;
+      right: -34px;
+    }
+  }
+  .form {
+    form {
+      .btn {
+        margin-top: 15px;
+      }
+    }
+  }
+  .footer {
+    position: static;
+  }
+  main {
+    margin-bottom: 0;
+  }
+  .article-page {
+    padding-top: 15px;
+  }
+  .article-block {
+    .img {
+      .title {
+        font-size: 28px;
+      }
+
+      padding-top: 90%;
+    }
+  }
+  .more-blogs .blog-list {
+    margin-top: 25px;
+  }
+  .services-sub__head
+  .title {
+    font-size: 24px;
+  }
+  .image-work {
+    padding-top: 72%;
+  }
+  .work-image {
+    .img2 {
+      border-radius: 15px;
+    }
+  }
+
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .work-footer__left .work-quote p {
+    font-size: 18px;
+  }
+  .work-footer__left::before {
+    z-index: 2;
+    width: 159px;
+    height: 103px;
+    left: 120px;
+
+  }
+  .work-footer__left .work-quote {
+    left: 13px;
+    right: 13px;
+    width: auto;
+  }
+  .work-footer {
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .single-work__head {
+    padding-left: 0;
+  }
+  .contacts-map {
+    padding-top: 120%;
+  }
+  .btn {
+    p {
+      font-size: 12px;
+    }
+  }
+  .title-head .text blockquote {
+    font-size: 18px;
+    padding: 20px 15px;
+  }
+  .apparatus {
+    padding-top: 50px;
+  }
+  .hero-laser::before {
+    bottom: 48%;
+  }
+  .hero-home__cont .title {
+    font-size: 26px;
+  }
+  .laser-left span {
+    margin-bottom: 20px;
+  }
+  .price-list__cont ul li p {
+    width: auto;
+  }
+  .recommends .bg-line {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sub-title {
+    padding-left: 25px;
+    font-size: 22px;
+  }
+  .our-steps {
+    margin-bottom: 20px;
+  }
+  .steps-list {
+    gap: 20px;
+  }
+  .title-head .text span {
+    margin-bottom: 20px;
+  }
   .test-drive__text .left span {
     font-size: 24px;
   }
@@ -913,9 +3332,11 @@
     width: 155px;
     height: 105px;
     left: 20px;
+
     span {
       font-size: 14px;
     }
+
     p {
       font-size: 10px;
     }
@@ -930,5 +3351,90 @@
   }
   .home-sub-text .btn {
     margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .faq-images__right {
+    padding-top: 80px;
+
+    .img2 {
+      top: 19%;
+    }
+
+    .btn {
+      top: 0;
+    }
+  }
+  .faq-images__right .img {
+    mask-image: none;
+    overflow: hidden;
+
+    img {
+      transform: none;
+    }
+  }
+  .faq-head p {
+    font-size: 16px;
+  }
+  .important-left span {
+    font-size: 16px;
+  }
+  .btn p {
+    font-size: 12px;
+  }
+  .price-right__bubble ul li span small {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+  .price-right__bubble ul li span {
+    font-size: 24px;
+  }
+  .price-right > span {
+    font-size: 16px;
+  }
+  .price-list__cont li p, .price-list__head p {
+    font-size: 14px;
+  }
+  .price-list {
+    width: calc(100% + 30px);
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .title-head .text span {
+    font-size: 16px;
+  }
+  .sub-title {
+    font-size: 18px;
+  }
+
+  .test-drive__text .left span {
+    font-size: 20px;
+  }
+  .laser-right {
+    width: 63%;
+  }
+  .hero-laser::before {
+    bottom: 30%;
+  }
+  .btn p {
+    padding: 10px 20px;
+  }
+  .hero-text {
+    padding: 20px 14px;
+  }
+  .hero-home__cont {
+    .title {
+      font-size: 24px;
+    }
+  }
+  .title {
+    font-size: 24px;
+  }
+  .container {
+    padding: 0 15px;
+  }
+  .footer, .header, main {
+    padding: 0 15px;
   }
 }

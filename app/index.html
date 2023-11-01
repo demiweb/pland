@@ -158,6 +158,52 @@
 
     </main>
 </div>
+
+
+<script>
+    let inputDrop = [...document.querySelectorAll('.input-drop > span')];
+
+    function controlInputDrop() {
+        if (inputDrop.length) {
+            inputDrop.forEach((drop) => {
+                drop.addEventListener('click', () => {
+                    drop.classList.toggle('open');
+                })
+                let inputs = [...drop.closest('.input-drop').querySelectorAll('ul input')];
+
+                let textInputs = '';
+
+                inputs.forEach((inp) => {
+                    inp.addEventListener('change', () => {
+                        textInputs = '';
+
+                        let allInpts = [...inp.closest('ul').querySelectorAll('input:checked')];
+                        let separator = ', ';
+                        if (allInpts.length === 0) {
+                            textInputs = '';
+                            drop.innerHTML = textInputs;
+                        } else {
+                            allInpts.forEach((inners, k) => {
+                                if (k === allInpts.length - 1) {
+                                    separator = '.';
+                                }
+                                console.log(textInputs);
+                                textInputs += inners.nextElementSibling.innerHTML;
+                                textInputs += separator;
+                                drop.innerHTML = textInputs;
+                            });
+                        }
+
+                    })
+                })
+
+            })
+        }
+    }
+
+    controlInputDrop();
+
+</script>
 <script>
     let title = document.title;
 
@@ -166,7 +212,7 @@
     var iframe = document.getElementById('frame-frame');
     var body = document.querySelectorAll('body')[0];
     var previewWrapper = document.getElementById('frame');
-    let pagesArr = ['home', 'laser'];
+    let pagesArr = ['home', 'laser', 'sugar', 'prices', 'contacts', 'work', 'faq', 'blog', 'article', 'page404' ];
 
 
     let pgList = document.querySelector('.page-list ol');

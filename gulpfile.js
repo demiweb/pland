@@ -66,7 +66,7 @@ gulp.task('det', async function() {
 		.pipe(gulp.dest('dist/details'))
 		.pipe(browserSync.stream())
 });
-gulp.task('img', async function () {
+gulp.task('img',  function () {
 	gulp.src('app/img/**/*.*') // Выберем файлы по нужному пути
 		.pipe(imagemin([
 			imagemin.gifsicle({interlaced: true}),

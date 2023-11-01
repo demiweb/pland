@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Manus';
+    src: url('Manus.eot');
+    src: local('Manus'),
+        url('Manus.eot?#iefix') format('embedded-opentype'),
+        url('Manus.woff2') format('woff2'),
+        url('Manus.woff') format('woff'),
+        url('Manus.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -3,6 +3,7 @@
 
 $main-font: 'Museo Sans Cyrl', sans-serif;
 $second-font: 'Bad Script', cursive;
+$third-font: 'Manus', cursive;
 $main-color: #C4E86B;
 $blue: #B2CFF0;
 $black: #000000;
@@ -195,7 +196,7 @@ body {
 html {
   height: auto;
   min-height: 100%;
-  font-size: 16px;
+  //font-size: 16px;
   display: flex;
 }
 
