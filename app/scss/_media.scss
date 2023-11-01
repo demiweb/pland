@@ -2,6 +2,15 @@
   .footer-wrap .bg {
     right: 32%;
   }
+  .news-cont .single-news:nth-child(1) .single-news__wrap {
+    transform: translate(0, -530px);
+  }
+  .news-cont .single-news:nth-child(2) .single-news__wrap {
+    transform: translate(0, 330px);
+  }
+  .news-cont .single-news:nth-child(3) .single-news__wrap {
+    transform: translate(0, 330px);
+  }
 }
 
 @media screen and (max-width: 1720px) {
